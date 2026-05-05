@@ -1,40 +1,24 @@
-# gradle
+# Logs
+logs
+*.log
+npm-debug.log*
 
-.gradle/
-build/
-out/
-classes/
+# Dependencies
+node_modules
+.pnpm-store
 
-# eclipse
+# Build output
+dist
+dist-ssr
+*.local
 
-*.launch
-
-# idea
-
-.idea/
-*.iml
-*.ipr
-*.iws
-
-# vscode
-
-.settings/
-.vscode/
-bin/
-.classpath
-.project
-
-# macos
-
-*.DS_Store
-
-# fabric
-
-run/
-
-# java
-
-hs_err_*.log
-replay_*.log
-*.hprof
-*.jfr
+# Editor / OS
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
